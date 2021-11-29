@@ -167,7 +167,7 @@ The default behaviour is call `gtag` on click events, but you can change the tri
 
 ```js
 <div>
-  <button gaEvent="click_test" gaCategory="ga_directive_test">Click Test</button>
+  <button gaEvent="click_test" gaCategory="ga_directive_test" gaLabel="Label for the event">Click Test</button>
   <button gaEvent="focus_test" gaCategory="ga_directive_test" gaBind="focus">Focus Test</button>
   <button gaEvent="blur_test" gaCategory="ga_directive_test" gaBind="blur">Blur Test</button>
   <button gaEvent="custom_test" gaCategory="ga_directive_test" gaBind="customEvent">Custom Event Test</button>
